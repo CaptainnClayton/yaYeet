@@ -28,7 +28,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FlU-tp-hTK">
-                                <rect key="frame" x="20" y="665" width="380" height="0.0"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -37,10 +37,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="FWh-Uo-U59" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="ef6-YO-4sM"/>
-                            <constraint firstItem="FlU-tp-hTK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="g32-40-lKu"/>
-                            <constraint firstItem="FlU-tp-hTK" firstAttribute="top" secondItem="FWh-Uo-U59" secondAttribute="bottom" constant="131" id="nJv-Ed-6qW"/>
+                            <constraint firstItem="FlU-tp-hTK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gse-pn-pXR"/>
                             <constraint firstItem="FWh-Uo-U59" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="318" id="oxi-KV-SAz"/>
-                            <constraint firstAttribute="trailing" secondItem="FlU-tp-hTK" secondAttribute="trailing" constant="14" id="vkG-WF-Lko"/>
+                            <constraint firstItem="FlU-tp-hTK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="oyv-F2-yWS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FlU-tp-hTK" secondAttribute="trailing" id="rHa-zc-e0u"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
