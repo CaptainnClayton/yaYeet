@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var yeet : String = ""
+    var yeet : String = "YEET"
     
     @IBOutlet weak var yeetLabel: UILabel!
     
